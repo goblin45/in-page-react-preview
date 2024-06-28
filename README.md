@@ -1,8 +1,32 @@
-# React + Vite
+# In Page React Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This mini project contains snippets that can be used to preview a react project inside a react project itself. 
 
-Currently, two official plugins are available:
+If you're building an online coding platform and want to add coding with React there, copy the snippets `Preview.jsx`, `CodeEditor.jsx` and `App.jsx` and integrate + tune them with your own project. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`./src/components/Preview.jsx` is the heart of the in page preview rendering. 
+
+## Output 
+
+
+
+## Dependencies 
+
+This project is made with `@monaco-editor/react` and `typescript`. To install them in your project, run -
+
+```bash
+npm install @monaco-editor/react typescript
+```
+
+## Installation
+
+If you want to setup this very project on your local machine, clone it and run ->
+
+```bash
+npm install
+npm run dev
+```
+
+I hope these snippets met your requirements. ✨
+
+Feel free to [connect](https://www.linkedin.com/in/rajarshi-dutta-1a2484254/) if you have any any questions! 🤙🏻

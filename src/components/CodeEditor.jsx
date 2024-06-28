@@ -6,10 +6,15 @@ const CodeEditor = ({ code, setCode }) => {
     <Editor
       height="100%"
       width={'100%'}
-      defaultLanguage="typescript"
       value={code}
       onChange={(value) => setCode(value || '')}
       theme="vs-dark"
+      language='javascript'
+      quickSuggestions= {{
+        "other": false,
+        "comments": false,
+        "strings": false
+      }}
     />
   );
 };
