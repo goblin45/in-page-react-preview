@@ -8,9 +8,11 @@ If you're building an online coding platform and want to add coding with React t
 
 ## Output 
 
+This is how the project looks like 👀 ->
 
+![Project outcome](https://raw.githubusercontent.com/goblin45/in-page-react-preview/main/Output.png))
 
-## Dependencies 
+## Dependencies
 
 This project is made with `@monaco-editor/react` and `typescript`. To install them in your project, run -
 
